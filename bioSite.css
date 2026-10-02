@@ -1,7 +1,7 @@
 /*
     Jose Rodriguez
     10/01/2026
-    CSD340 Module 6.3 Assignment
+    CSD340 Module 7.2 Assignment
     BioSite Development
 */
 
@@ -123,6 +123,25 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 50px;
+}
+
+figure {
+    margin: 20px;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+figcaption {
+    margin-top: 8px;
+    font-style: italic;
+    color: #555555;
 }
 
 @media screen and (max-width: 700px) {
